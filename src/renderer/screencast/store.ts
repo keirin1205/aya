@@ -71,6 +71,7 @@ class Store extends BaseStore {
           maxSize: settings.maxSize,
           clipboardAutosync: true,
           stayAwake: true,
+          audioDup: true,
         })
       )
       this.scrcpyClient.on('close', () => {
